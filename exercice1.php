@@ -77,7 +77,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         if($verify== 0){ 
 
-            if ($nbre_de_note > 0) {
+            if ($nbre_de_note >= 3) {
                 $moyenne = $somme / $nbre_de_note;
 
                 // Initialisation max et min

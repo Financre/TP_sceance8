@@ -45,6 +45,9 @@ if($_SERVER["REQUEST_METHOD"] =="POST"){
     }else{
         foreach($elements as $element){
             if(is_numeric($element)){
+                switch($critere){
+                    case:
+                }
                 
             }
         }
